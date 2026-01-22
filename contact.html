@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact HMJ Finance</title>
+  <meta name="description" content="Get in touch with HMJ Finance for bookkeeping, VAT, payroll, and self-assessment support." />
+  <meta property="og:title" content="Contact HMJ Finance" />
+  <meta property="og:description" content="Let’s talk about your bookkeeping and finance support needs." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.hmj-finance.com/contact.html" />
+  <meta property="og:image" content="assets/hmj-finance-logo.svg" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="top-bar">
+    <div class="container">
+      <span>We’d love to hear from you.</span>
+      <a href="mailto:Joe@HMJ-Global.com">Email us</a>
+    </div>
+  </div>
+  <header>
+    <div class="container navbar">
+      <a class="logo" href="index.html">
+        <img src="assets/hmj-finance-logo.svg" alt="HMJ Finance" />
+      </a>
+      <button class="mobile-toggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a class="dropdown-toggle" href="bookkeeping.html">Services</a>
+          <div class="dropdown">
+            <a href="bookkeeping.html">Bookkeeping</a>
+            <a href="vat-returns.html">VAT Returns</a>
+            <a href="management-accounts.html">Management Accounts</a>
+            <a href="payroll-cis.html">Payroll &amp; CIS</a>
+            <a href="self-assessment.html">Self-Assessment</a>
+          </div>
+        </li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="helpful-bits.html">Helpful bits</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="nav-cta" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="badge">Contact</span>
+          <h1>Get in Touch</h1>
+          <p>Whether you’re ready to get started or just want to ask a few questions, we’d love to hear from you.</p>
+          <div class="card" style="margin-top: 20px;">
+            <p><strong>Email:</strong> <a href="mailto:Joe@HMJ-Global.com">Joe@HMJ-Global.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:08008611230">0800 861 1230</a></p>
+            <p><strong>Location:</strong> Media City, Manchester &amp; Warrington (serving businesses UK-wide)</p>
+          </div>
+        </div>
+        <div class="highlight">
+          <h2 class="section-title">Send us a message</h2>
+          <form class="form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact" />
+            <p style="display:none;">
+              <label>Don’t fill this out: <input name="bot-field" /></label>
+            </p>
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+            <div>
+              <label for="phone">Phone (optional)</label>
+              <input id="phone" name="phone" type="tel" />
+            </div>
+            <div>
+              <label for="business">Business Name (optional)</label>
+              <input id="business" name="business" type="text" />
+            </div>
+            <div>
+              <label for="service">Service Interested In</label>
+              <select id="service" name="service" required>
+                <option value="">Select a service</option>
+                <option>Bookkeeping</option>
+                <option>VAT Returns</option>
+                <option>Management Accounts</option>
+                <option>Payroll &amp; CIS</option>
+                <option>Self-Assessment</option>
+                <option>Recruitment</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button class="button primary" type="submit">Send message</button>
+            <p>Thanks for your message! We’ll be in touch shortly.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <h4>HMJ Finance</h4>
+        <p>Accountancy &amp; bookkeeping support for small businesses across the North West.</p>
+      </div>
+      <div>
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="bookkeeping.html">Bookkeeping</a></li>
+          <li><a href="vat-returns.html">VAT Returns</a></li>
+          <li><a href="management-accounts.html">Management Accounts</a></li>
+          <li><a href="payroll-cis.html">Payroll &amp; CIS</a></li>
+          <li><a href="self-assessment.html">Self-Assessment</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="helpful-bits.html">Helpful bits</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:Joe@HMJ-Global.com">Joe@HMJ-Global.com</a></li>
+          <li><a href="tel:08008611230">0800 861 1230</a></li>
+          <li>Media City, Manchester &amp; Warrington (serving UK-wide)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© HMJ Finance. <a href="ts-and-cs.html">Terms &amp; Conditions</a>.</span>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
