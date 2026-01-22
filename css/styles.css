@@ -181,6 +181,10 @@ header {
   color: var(--muted);
 }
 
+.muted {
+  color: var(--muted);
+}
+
 .hero-actions {
   display: flex;
   gap: 16px;
